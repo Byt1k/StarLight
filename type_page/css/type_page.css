@@ -1,0 +1,40 @@
+.type-page {
+    padding: 85px 0;
+}
+
+.type-page__text {
+    line-height: 34px;
+    text-indent: 30px;
+}
+
+
+/* Медиа-запросы*/
+
+ @media screen and (max-width: 1200px) {
+    
+
+@media screen and (max-width: 992px) {
+    
+ }
+
+@media screen and (max-width: 760px) {
+    
+   
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        width: 100%;
+    }
+
+}  
+
+@media screen and (max-width: 520px) {
+    
+}    
+
+@media screen and (max-width: 410px) {
+    
+    
+} 

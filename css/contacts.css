@@ -1,0 +1,92 @@
+.contacts {
+    background: #775c5d url(../img_contacts/bg_contacts.jpg) no-repeat center top / cover;
+    padding: 80px 0 50px 0;
+}
+
+.contacts__title {
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.map {
+    box-shadow: 1px 1px 8px 0px #4040c6;
+    border-radius: 7px;
+}
+
+.contacts__item {
+    margin-top: 20px;
+}
+
+.contacts__items_text {
+    color: #fff;
+    margin-left: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacts__items_text:hover {
+    color: #fff;
+}
+
+.comtacts__items_icon {
+    height: 100%;
+}
+
+.contact__btn {
+    margin-top: 18px;
+}
+
+.contacts__attribute {
+    color: #fff;
+}
+
+.contacts__attribute {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+
+
+ /* * {
+    outline: 1px solid red;
+ }
+ */
+
+
+/* Медиа-запросы*/
+
+ @media screen and (max-width: 1200px) {
+    .map {
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .map {
+        width: 100%;
+    }
+ }
+
+@media screen and (max-width: 760px) {
+    
+   
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        width: 100%;
+    }
+
+}  
+
+@media screen and (max-width: 520px) {
+    
+}    
+
+@media screen and (max-width: 410px) {
+    
+    
+}

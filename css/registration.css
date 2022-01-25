@@ -1,0 +1,124 @@
+.registration {
+    background: #1a2ebc url(../img_registration/bg_registration.jpg) no-repeat center top;
+    padding: 80px 0;
+}
+
+.registration__title {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.registration__text {
+    color: #fff;
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.edits {
+    padding: 90px 0;
+}
+
+.edits__item {
+    width: 100%;
+    background: #fff;
+    border: 0;
+    border-radius: 7px;
+    color: #7478c0;
+    font-size: 12px;
+    box-shadow: inset 0 0 7px 0px #babede;
+    padding: 15px;
+}
+
+.edits__item_min {
+    width: 96px;
+}
+
+.edit_code {
+    display: block;
+    width: 245px;
+}
+
+.code {
+    background: #dceefe;
+    color: #faa716;
+    font-size: 18px;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.edits__text {
+    line-height: 34px;
+    font-size: 16px;
+    color: #010fa1;
+}
+
+
+ /* * {
+    outline: 1px solid red;
+ }
+ */
+
+
+/* Медиа-запросы*/
+
+ @media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    .code__title {
+        text-align: center;
+    }
+    
+    .edits__item_min {
+        width: 30%;
+    }
+ }
+
+@media screen and (max-width: 768px) {
+    .registration {
+        padding: 35px 0;
+    }
+    
+
+   
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        width: 100%;
+    }
+
+}  
+
+@media screen and (max-width: 520px) {
+    
+}    
+
+@media screen and (max-width: 410px) {
+    .registration__title {
+        color: #fff;
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+
+    .registration__text {
+        color: #fff;
+        line-height: 25px;
+        font-size: 13px;
+    }
+
+    .group-edits__item_min {
+        flex-direction: column;
+    }
+
+    .edits__item_min {
+        width: 100%;
+    }
+
+    .edits__text {
+        line-height: 25px;
+        font-size: 13px;
+    }
+} 

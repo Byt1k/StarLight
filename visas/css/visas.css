@@ -1,0 +1,127 @@
+.visas {
+	padding: 75px 0;
+}
+
+.europe {
+	background: url(../img/bg1_visas.jpg) no-repeat center top / cover;
+}
+
+.asia {
+	background: url(../img/bg2_visas.jpg) no-repeat center top / cover;
+}
+
+.north-america {
+	background: url(../img/bg3_visas.jpg) no-repeat center top / cover;
+}
+
+.oceania {
+	background: url(../img/bg4_visas.jpg) no-repeat center top / cover;
+}
+
+.africa {
+	background: url(../img/bg5_visas.jpg) no-repeat center top / cover;
+}
+
+
+.visa {
+	box-shadow: 0 0 15px rgba(66, 59, 109, 0.744);
+	position: relative;
+	width: 260px;
+}
+
+.visa__name {
+	position: absolute;
+	color: #fff;
+	top: 10px;
+	left: 20px;
+}
+
+.visa__hover {
+	top: 0;
+	left: 0;
+	position: absolute;
+	cursor: pointer;
+	width: 260px;
+	height: 100%;
+	box-sizing: border-box;
+	transition: opacity 1s, background-color .5s;
+	opacity: 0;
+	border-radius: 3px;
+}
+
+.visa__hover:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.visa__hover a {
+	color: #fdda5e;
+	font-weight: 700;
+	transition: all 0.3s ease;
+}
+
+.visa__hover a:hover {
+	text-decoration: none;
+	color: #fec703
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Медиа-запросы*/
+
+ @media screen and (max-width: 1200px) {
+    
+
+@media screen and (max-width: 992px) {
+    
+ }
+
+@media screen and (max-width: 760px) {
+    
+   
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .visa {
+    	margin: 0 auto;
+    }
+
+}  
+
+@media screen and (max-width: 520px) {
+    
+}    
+
+@media screen and (max-width: 410px) {
+    
+    
+} 
